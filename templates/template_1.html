@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>This course sucks</p>
+
+<ol>
+    {% for student in current_students_key %}
+    <li>{{ student.name }}</li>
+    {% endfor %}
+</ol>
+</body>
+</html>
